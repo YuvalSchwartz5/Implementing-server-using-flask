@@ -4,18 +4,26 @@ About the project: Implement server using “flask” microframework and test it
 There are two files - app.py which implements the server and test.py that tests the server.
 
 The server includes the following API's: POST/AddMessage , Get/GetMessage, Get/DeleteMessage :
+
 The data is stored as JSON
 AddMessage - Creates a new message in the server. 
 GetMessage - Returns data according to the url query.
 DeleteMessage - Deletes data according to the url query.
 
 Project's installations that are needed:
+
 Install python
+
 Choose an environment to work in, for example visual studio code
+
 Install pip
+
 Install virtualenv, open a file and activate it
+
 Install flask
+
 Install requests
+
 Install pytest
 
 Runing the project:
@@ -28,5 +36,5 @@ The test plan for the API’s I implemented:
 
 Plans for the future:
 1. Adding more tests of edge cases that would be done generically
-2.Testing the messages that are stored after operations are done
+2. Testing the messages that are stored after operations are done
 3. Using a database to store the data
